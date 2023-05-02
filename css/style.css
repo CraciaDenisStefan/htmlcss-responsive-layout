@@ -136,6 +136,33 @@ p{
     color: black;
 }
 
+/* INIZIO SECTION TESTIMONIALS*/
+.col_testimonials{
+    background-color: rgb(154, 145, 235);
+    width: calc(100% - 20px);
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+.content_testimonials{
+    width: calc(100% - 20px);
+    margin: 10px;
+    color: white;
+    padding: 10px 0; 
+}
+.testimonial_img{
+    width: 50%;
+    border-radius: 50%; 
+}
+.fa-solid.fa-quote-left, .fa-solid.fa-quote-right{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+
+}
+
+
 
 /* FINE MAIN */
 
@@ -166,6 +193,18 @@ p{
         margin: 0;
         margin-left: 20px;
     }
+    /* Inizio section testimonials */
+    .col_testimonials{
+        display: flex;
+        
+    }
+    .content_testimonials.left{
+        width: 30%;
+    }
+    .content_testimonials.right{
+        width: 70%;
+    }
+
 
 }
 
