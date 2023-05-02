@@ -6,11 +6,10 @@
 body{
     font-family: sans-serif;
 }
-
 /* INIZIO HEADER */
 header{
     width: 100%; 
-    background-color: rgb(67, 132, 228);
+    background-color: rgb(17, 122, 241);
 }
 .container{
     width: 100%;
@@ -21,24 +20,22 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 .col_header_left, .col_header_right_menu{
     padding: 15px 0;
-}
-
-.hamburger, .menu{
-    width: 100%;
-    height: 100%;
 }
 .hamburger{
     font-size: 30px;
     color: white;
     display: block;
 }
+.fa-solid.fa-bars{
+    color: white;
+    margin-bottom: 0;
+    font-size: 30px;
+}
 .menu{
     display: none;
 }
-
 li{
     display: inline-block;
     margin-right: 15px;
@@ -52,27 +49,55 @@ li{
 }
 /* FINE HEADER */
 /* INIZIO MAIN */
-
-
 .row_main{
     margin: 0 30px;
     display: flex;
     flex-direction: column;
 }
+.title_sec_demo{
+    font-size: 25px;
+    color: rgb(17, 122, 241);
+    margin-bottom: 30px;
+}
+/* INIZIO COL */
 .col_double, .col_demo_single{
     width: calc(100% - 20px);
     margin :10px;
-    background-color: red;
+    background-color: rgba(1, 150, 236, 0.411);
+    border-radius: 20px;
+    padding-top: 40px;
 }
-
 .content_double_info, .content_double_img{
     width: 70%;
     margin: 0 auto;
 }
-img{
-    width: 100%;
+p{
+    line-height: 30px;
 }
-
+.app_store{
+    font-size: 18px;
+    background-color:rgb(17, 122, 241) ;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 20%;
+    border: none;
+    margin: 30px 0;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.demo_img{
+    width: 100%;
+    display: block;
+}
+.fa-solid{
+    color: rgb(17, 122, 241);
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.col_demo_single{
+    padding: 20px;
+    text-align: center;
+}
 /* FINE MAIN */
 
 
@@ -89,12 +114,26 @@ img{
     .col_demo_single{
         width: calc(100% / 3 - 20px);
     }
+    .content_double_info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .app_store{
+        padding: 15px 10%;
+
+    }
+    .content_double_img{
+        width: 60%;
+        margin: 0;
+        margin-left: 20px;
+    }
+
 }
 
 /* Desktop */
 @media screen and (min-width: 991px){
     .container{
-        width: 70%;
+        width: 80%;
     }
     .menu{
         display: block;
@@ -102,6 +141,11 @@ img{
     .hamburger{
         display: none;
     }
+    .col_double{
+        display: flex;
+        padding: 30px;
+    }
+
 }
 
 /* Large Desktop */
