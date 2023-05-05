@@ -55,7 +55,7 @@ li{
     flex-direction: column;
 }
 .title_sec_demo{
-    font-size: 25px;
+    font-size: 23px;
     color: rgb(17, 122, 241);
     margin-bottom: 30px;
 }
@@ -68,11 +68,16 @@ li{
     padding-top: 40px;
 }
 .content_double_info, .content_double_img{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 p{
     line-height: 30px;
+}
+.content_demo_single{
+    width: 80%;
+    margin:0 auto ;
+    padding: 20px 0;
 }
 .app_store{
     font-size: 18px;
@@ -226,7 +231,21 @@ p{
     /* SECTION DEMO */
     .col_double{
         display: flex;
-        padding: 30px;
+        padding-left: 30px;
+    }
+    .content_double_info, .content_double_img{
+        width: calc(100% / 2);
+    }
+    .content_double_img{
+        position: relative;
+    }
+    .demo_img{
+        position: absolute;
+        bottom: 0;
+    }
+    .content_demo_single{
+        padding: 0;
+        width: 93%;
     }
     /* SECTION STRATEGIC PLANING */
     .content_planing_info, .content_planing_img{
