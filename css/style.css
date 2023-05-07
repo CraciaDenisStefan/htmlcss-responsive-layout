@@ -342,6 +342,24 @@ a{
     font-weight: 600;
 }
 /* FINE MAIN */
+/* INIZIO FOOTER */
+footer{
+    width: 100%;
+    background-color: rgb(56, 55, 55);
+}
+.row_footer{
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+.info_footer{
+   padding: 30px 0;
+}
+.color{
+    color:rgb(154, 145, 235)
+}
+
 
 /* Tablet */
 @media screen and (min-width: 768px){
@@ -403,6 +421,11 @@ a{
     }
     .get_started_free{
         padding: 20px 10%;
+    }
+    /* Inizio footer */
+    .row_footer{
+        margin: 0 auto;
+        width: 50%;
     }
 }
 
