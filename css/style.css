@@ -8,7 +8,7 @@ body{
 }
 /* INIZIO HEADER */
 header{
-    width: 100%; 
+    width: 100%;
     background-color: rgb(17, 122, 241);
 }
 .container{
@@ -109,7 +109,7 @@ p{
 }
 .content_planing_info, .content_planing_img{
     width:90%;
-    margin: 0 auto; 
+    margin: 0 auto;
     color: white;
 }
 .planing_img{
@@ -164,7 +164,7 @@ p{
     width: calc(100% - 20px);
     margin: 10px;
     color: white;
-    padding: 10px 0; 
+    padding: 10px 0;
 }
 .content_testimonials.left{
     width: 200px;
@@ -183,7 +183,7 @@ p{
     height: 200px;
     border-radius: 50%;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     text-align: center;
     margin: 10px;
 }
@@ -306,8 +306,41 @@ p{
 .fa-linkedin{
     margin-right: 5px;
 }
-
-
+/* Inizio section Get Started */
+.get_started{
+    background-color: rgb(154, 145, 235);
+    padding: 50px 0;
+}
+.col_get_started{
+    width: calc(100% - 20px);
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+a{
+    color: white;
+}
+.get_start_h3{
+    color: rgb(212, 208, 208);
+}
+.h1_simple{
+    font-size: 30px;
+}
+.free{
+    margin: 20px 0;
+    font-size: 60px;
+    color: rgb(245, 187, 79);
+}
+.get_started_free{
+    font-size: 20px;
+    background-color: white;
+    color: rgb(154, 145, 235);
+    border-radius: 40px;
+    padding: 20px 20%;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
 /* FINE MAIN */
 
 /* Tablet */
@@ -338,7 +371,7 @@ p{
     /* Inizio section testimonials */
     .col_testimonials{
         display: flex;
-        
+
     }
     .content_testimonials.left{
         width: 30%;
@@ -362,6 +395,14 @@ p{
     .col_about_us.w_30{
         width:calc(30% - 20px);
         padding-left: 20px;
+    }
+    /* Inizio get started */
+    .w_60{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .get_started_free{
+        padding: 20px 10%;
     }
 }
 
@@ -399,7 +440,7 @@ p{
     /* SECTION STRATEGIC PLANING */
     .content_planing_info, .content_planing_img{
         width: calc(100% / 2 - 100px);
-    
+
     }
     .content_planing_info{
         margin: 0 50px 50px 0;
@@ -418,13 +459,18 @@ p{
     .content_planing_img2{
         position: absolute;
         left: 20px;
-        bottom: 11px;  
+        bottom: 11px;
     }
     /* Inizio Benefit */
     .col_benefit{
         flex-direction: row;
         flex-wrap: wrap;
         width: calc(100% / 3 - 20px);
+    }
+    /* Inizio get started */
+    .row_get_started{
+        width: 70%;
+        margin: 0 auto;
     }
 }
 
@@ -440,5 +486,5 @@ p{
         width: 70%;
     }
 
-    
+
 }
